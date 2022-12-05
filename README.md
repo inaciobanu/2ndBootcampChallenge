@@ -27,13 +27,13 @@ The following animation shows the web application's appearance and functionality
 
 ![portfolio demo](./images/01-css-challenge-demo.gif)
 
-## Review
+## Outcomes
 
-You are required to submit BOTH of the following for review:
+I was required to submit BOTH of the following for review:
 
-* The URL of the deployed application.
+* The URL of the deployed application is [Here](https://inaciobanu.github.io/2ndBootcampChallenge/)
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+* The URL of the GitHub repository that contains my code is [Here] (https://github.com/inaciobanu/2ndBootcampChallenge). 
 
 ---
 Texts inspired from the initial Readme File ©2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
