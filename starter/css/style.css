@@ -1,0 +1,159 @@
+/** {
+  box-sizing: border-box;
+}*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+/* Navigation CSS */
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+#navigation {
+  display: flex;
+  width: 75%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: pink;
+  }
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+  scrollbar-highlight-color: aqua;
+  display: block;
+}
+
+#navigation a {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+.hero-banner {
+width:100%;
+height: 200px;
+background-image: url(../images/02-hero-bg.jpg);
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.page-wrapper {
+  margin: 0px 5%;
+  padding: 5px;
+  display: grid;
+  min-height: 600px;
+  height: 70vh;
+  grid-template-rows: 25% 70% 5%;
+  grid-template-columns: 25% 75%;
+  grid-template-areas:
+  "about aboutContent"
+  "work workContent"
+  "contact contactContent"
+}
+
+.workContent {
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "portfolioMain portfolioMain"
+  "portfolioMain portfolioMain"
+  "portfolio1 portfolio2"
+  "portfolio3 portfolio4"
+}
+
+#about{
+  grid-area:about;
+  border-right: solid 3px;
+
+}
+#work{
+  grid-area:work;
+  border-right: solid 3px;
+}
+#contact{
+  grid-area:contact;
+  border-right: solid 3px;
+}
+#aboutContent{
+  grid-area:aboutContent;
+  padding:10px;
+}
+#workContent{
+  grid-area:workContent;
+  padding:10px;
+}
+#contactContent{
+  grid-area:contactContent;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: gray;
+  padding:10px;
+}
+
+/** work/Portfolio container CSS*/
+#portfolioMain {
+  grid-area:portfolioMain;
+  width:100%;
+  height: 200px;
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-image: url("../images/02-hero-bg.jpg");
+}
+#portfolio1 {
+  grid-area:portfolio1;
+  background-image: url("../images/02-portfolio-1.jpg");
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portfolio2 {
+  grid-area:portfolio2;
+  background-image:url("../images/02-portfolio-2.jpg");
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portfolio3 {
+  grid-area:portfolio3;
+  background-image:url("../images/02-portfolio-3.jpg");
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portfolio4 {
+  grid-area:portfolio4;
+  background-image:url("../images/02-portfolio-4.jpg");
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#contactContent a {
+  color: aqua;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+.hero-banner h2 {
+  color: pink;
+}
+
+.workContent h3 {
+  color: pink;
+}
